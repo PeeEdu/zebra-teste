@@ -1,0 +1,19 @@
+.dropdownDiv {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.dropdownComponent{
+    border: 1px black solid;
+    padding-left: 5px;
+    border-radius: 5px;
+    padding: 10px 10px
+}
+.dropdownComponent input:focus{ 
+    outline: none;
+}
+
+.dropdownDiv .p-dropdown-trigger-icon {
+    display: none;
+}
